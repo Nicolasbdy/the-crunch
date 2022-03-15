@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "THE CRUNCH",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
