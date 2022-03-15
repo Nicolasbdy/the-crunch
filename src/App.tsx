@@ -12,8 +12,8 @@ import {
 import { IonReactRouter } from '@ionic/react-router';
 import { ellipse, square, triangle } from 'ionicons/icons';
 import Accueil from './pages/Accueil';
-import Tab2 from './pages/Tab2';
-import Tab3 from './pages/Tab3';
+import Compositions from './pages/Compositions';
+import Live from './pages/Live';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -41,31 +41,20 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
-          <Route exact path="/Accueil">
+          <Route exact path="/">
             <Accueil />
           </Route>
-          <Route exact path="/tab2">
-            <Tab2 />
+          <Route exact path="/Compositions">
+            <Compositions />
           </Route>
-          <Route path="/tab3">
-            <Tab3 />
-          </Route>
-          <Route exact path="/">
-            <Redirect to="/Accueil" />
+          <Route path="/Live">
+            <Live/>
           </Route>
         </IonRouterOutlet>
-        <IonTabBar slot="bottom">
-          <IonTabButton tab="Accueil" href="/Accueil">
+        <IonTabBar slot="bottom" style={{ 'display': 'none' }}>
+          <IonTabButton tab="Accueil" href="/">
             <IonIcon icon={triangle} />
             <IonLabel>Accueil</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab="tab2" href="/tab2">
-            <IonIcon icon={ellipse} />
-            <IonLabel>Tab 2</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab="tab3" href="/tab3">
-            <IonIcon icon={square} />
-            <IonLabel>Tab 3</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

@@ -7,10 +7,12 @@ const Accueil: React.FC = () => {
       <IonHeader>
       </IonHeader>
       <IonContent fullscreen>
-        <div className='background-image'>
-          <span className="Red text title">The Crunch</span>
-          <IonButton color="medium text">Compositions</IonButton>
-          <IonButton color="medium text">Match</IonButton>
+        <div className='background-image container'>
+          <div className='container-bouton'>
+            <IonButton color="light text bouton" href='/Compositions'>Équipes</IonButton>
+            <IonButton color="light text bouton" href='/Live'>Match</IonButton>
+          </div>
+          <span className="Red title">🇫🇷 The Crunch 🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
         </div>
       </IonContent>
     </IonPage>

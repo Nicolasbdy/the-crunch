@@ -1,0 +1,11 @@
+.background-image2 {
+    background: url(/public/assets/compo.png) no-repeat center/cover fixed;
+    margin-top: 20%;
+    height: 75%;
+}
+
+.text{
+    font-family:'Arial';
+    font-weight:bold;
+    font-size:x-large;
+}
