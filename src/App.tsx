@@ -14,6 +14,7 @@ import { ellipse, square, triangle } from 'ionicons/icons';
 import Accueil from './pages/Accueil';
 import Compositions from './pages/Compositions';
 import Live from './pages/Live';
+import DeuxPoints from './pages/deuxpoints';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -49,6 +50,9 @@ const App: React.FC = () => (
           </Route>
           <Route path="/Live">
             <Live/>
+          </Route>
+          <Route path="/DeuxPoints">
+            <DeuxPoints/>
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom" style={{ 'display': 'none' }}>

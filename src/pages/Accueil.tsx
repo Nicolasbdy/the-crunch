@@ -3,7 +3,7 @@ import './Accueil.css';
 
 const Accueil: React.FC = () => {
   return (
-    <IonPage>
+    <IonPage className='safe-area'>
       <IonHeader>
       </IonHeader>
       <IonContent fullscreen>

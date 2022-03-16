@@ -3,3 +3,32 @@
     font-weight:bold;
     font-size:x-large;
 }
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+   
+}
+.container-bouton1 {
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+}
+
+.fit-picture {
+    height: 150px;
+    width: 150px;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.container5 {
+    display: flex;
+    flex-direction:row;
+    margin: 5%;
+    margin-top: 20%;
+    justify-content: space-around;
+}

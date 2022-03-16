@@ -1,0 +1,25 @@
+.background-image3 {
+    background: url(https://media.giphy.com/media/9PaFsBEVO4EOKok7de/giphy.gif) no-repeat center/cover fixed;
+    margin:1em;
+    height: 100%
+}
+.text5{
+    font-family:'Impact';
+    font-weight:bold;
+    font-size: 4rem;
+    margin: auto;
+   
+}
+.containergif {
+    display: flex;
+    height: 100%;
+    flex-direction: column-reverse;
+    margin-bottom: 30%;
+}
+
+.gif1{
+    margin: auto;
+}
+.textemarge{
+    margin-bottom: 30%;
+}

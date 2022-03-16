@@ -1,5 +1,4 @@
-const URL = "https://rugby-live-data.p.rapidapi.com/match/8289907"
-const TEST = true
+const URL = "https://dev.ouisnap.com/"
 const cacheResult = {
     "match": {
         "id": 8289907,
@@ -57,27 +56,18 @@ const cacheResult = {
     "events": []
 }
 
-
 const fetchData = async () => {
     return fetch(URL, {
         method: 'GET',
-        headers: {
-            'x-rapidapi-host': 'rugby-live-data.p.rapidapi.com',
-            'x-rapidapi-key': '4817ee52e1msh4294c497844c7e0p13a5c7jsnca30a2a726a2'
-        }
     })
 }
 
 export const GetData = async () => {
     let tab = Array()
-    if (TEST) {
-        return cacheResult
-    }
     const resp = await fetchData()
     if (resp.ok) {
         const items = await resp.json()
-        // Sort data tab ?
-        return items.results
+        return items
     }
     return null
 }
