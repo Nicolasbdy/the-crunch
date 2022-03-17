@@ -1,4 +1,4 @@
-const URL = "https://dev.ouisnap.com/"
+const URL = "https://crunch.autodicar.fr/"
 const cacheResult = {
     "match": {
         "id": 8289907,
@@ -62,6 +62,20 @@ const fetchData = async () => {
     })
 }
 
+const fetchHomeScore = async () => {
+    const url = URL + '/homescore'
+    return fetch(url, {
+        method: 'GET',
+    })
+}
+
+const fetchAwayScore = async () => {
+    const url = URL + '/awayscore'
+    return fetch(url, {
+        method: 'GET',
+    })
+}
+
 export const GetData = async () => {
     let tab = Array()
     const resp = await fetchData()
@@ -73,9 +87,19 @@ export const GetData = async () => {
 }
 
 export const GetHomeScore = async () => {
-    return cacheResult.match.home_score
+    const resp = await fetchHomeScore()
+    if (resp.ok) {
+        return await resp.json()
+    }
+    console.log(await resp.json())
+    return null
 }
 
 export const GetAwayScore = async () => {
-    return cacheResult.match.away_score
+    const resp = await fetchAwayScore()
+    if (resp.ok) {
+        return await resp.json()
+    }
+    console.log(await resp.json())
+    return null
 }

@@ -4,17 +4,24 @@
     height: 100%
 }
 .text5{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 2rem;
+    margin: auto;
+   
+}
+
+.text6{
     font-family:'Impact';
     font-weight:bold;
     font-size: 4rem;
     margin: auto;
-   
 }
 .containergif {
     display: flex;
     height: 100%;
     flex-direction: column-reverse;
-    margin-bottom: 30%;
+    margin-bottom: 50%;
 }
 
 .gif1{

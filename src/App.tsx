@@ -49,10 +49,11 @@ const App: React.FC = () => (
             <Compositions />
           </Route>
           <Route path="/Live">
-            <Live/>
+            <Live />
           </Route>
-          <Route path="/DeuxPoints">
-            <DeuxPoints/>
+          <Route path="/DeuxPoints" render={(props) => (
+            <DeuxPoints {...props} />
+          )}>
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom" style={{ 'display': 'none' }}>
