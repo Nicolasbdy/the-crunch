@@ -1,4 +1,4 @@
-import { Redirect, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import {
   IonApp,
   IonIcon,
@@ -10,7 +10,7 @@ import {
   setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { ellipse, square, triangle } from 'ionicons/icons';
+import { triangle } from 'ionicons/icons';
 import Accueil from './pages/Accueil';
 import Compositions from './pages/Compositions';
 import Live from './pages/Live';

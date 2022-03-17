@@ -8,7 +8,6 @@
     display: flex;
     flex-direction: column;
     margin-left: 0%;
-   
 }
 .container-bouton1 {
     justify-content: space-around;
@@ -17,6 +16,25 @@
     display: flex;
     flex-direction: row;
 }
+.container-alcool {
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    font-size:large;
+}
+.container-alcool2 {
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    font-size:large;
+}
+
 
 .fit-picture {
     height: 150px;
@@ -29,6 +47,8 @@
     display: flex;
     flex-direction:row;
     margin: 5%;
-    margin-top: 20%;
+    margin-bottom: 10%;
     justify-content: space-around;
+    margin-top: 20%;
 }
+

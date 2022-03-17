@@ -8,25 +8,29 @@
     font-weight:bold;
     font-size: 2rem;
     margin: auto;
+    margin-bottom: 25% ;
+    text-align: center;
+    
    
 }
 
 .text6{
     font-family:'Impact';
     font-weight:bold;
-    font-size: 4rem;
+    font-size: 2rem;
     margin: auto;
 }
 .containergif {
-    display: flex;
+    display:flex;
     height: 100%;
     flex-direction: column-reverse;
-    margin-bottom: 50%;
+    margin-bottom: 40%;
+    margin-top: 15%;
 }
 
 .gif1{
     margin: auto;
 }
 .textemarge{
-    margin-bottom: 30%;
+    margin-bottom: 5%;
 }
