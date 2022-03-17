@@ -119,9 +119,6 @@ const Live: React.FC = () => {
                         <span color="light text bouton" >Le manque d'alcool c'est comme le niveau des anglais, ca n'existe pas! 🖕 </span>
                     </div>
                 </div>
-                <div className='container5'>
-                    <IonButton color="light texte" onClick={() => openGifPage("https://media.giphy.com/media/8vUEXZA2me7vnuUvrs/giphy.gif", "Essai ", "michel ", 'salut')}>DeuxPoints</IonButton>
-                </div>
                      <div className='container-alcool2'>
                         <span color="light text bouton" >🍻‼️ N'hésitez pas à remplir vos verres, un phénomène d'évaporation excessive est fortement présent ce soir 🛑🍻 </span>
                     </div>

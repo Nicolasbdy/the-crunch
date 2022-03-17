@@ -1,4 +1,4 @@
-import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButton, IonContent, IonHeader, IonImg, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Compositions.css';
 
@@ -13,8 +13,8 @@ const Compositions: React.FC = () => {
         <IonButton color="light texte"href=''>Retour</IonButton>
         <IonButton color="light texte"href='Live'>Match</IonButton>
       </div>
-        <div className='background-image2 container1'>
-        </div>
+        <IonImg className='background-image2 container1'>
+        </IonImg>
       <div className= 'roulade'>
         <span color="light text bouton" > Avec une équipe comme ça le Rosbeef ça se mange cru ! 🤌👊 </span>
       </div>
