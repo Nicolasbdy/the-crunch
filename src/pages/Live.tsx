@@ -48,7 +48,7 @@ const Live: React.FC = () => {
 
             if (data.team == 'away') {
                 //essai Angleterre
-                openGifPage("https://media.giphy.com/media/8vUEXZA2me7vnuUvrs/giphy.gif", "te donne 1 shot/ 5 gorgées", "Essai ", data.player)
+                openGifPage("https://media.giphy.com/media/8vUEXZA2me7vnuUvrs/giphy.gif", "te donne 1 shot/ 5 gorgées", "Essai 🏴󠁧󠁢󠁥󠁮󠁧󠁿", data.player)
             }
         }
 

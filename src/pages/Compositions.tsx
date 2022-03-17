@@ -14,8 +14,10 @@ const Compositions: React.FC = () => {
         <IonButton color="light texte"href='Live'>Match</IonButton>
       </div>
         <div className='background-image2 container1'>
-
         </div>
+      <div className= 'roulade'>
+        <span color="light text bouton" > Avec une équipe comme ça le Rosbeef ça se mange cru ! 🤌👊 </span>
+      </div>
       </IonContent>
     </IonPage>
   );

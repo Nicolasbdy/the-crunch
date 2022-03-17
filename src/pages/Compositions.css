@@ -1,5 +1,5 @@
 .background-image2 {
-    background: url(/public/assets/compo.png) no-repeat center/cover fixed;
+    background: url(/public/assets/compofrance.jpeg) no-repeat center/cover fixed;
     margin:1em;
     height: 70%;
 }
@@ -21,5 +21,13 @@
     margin: 5%;
     justify-content: space-around;
 }
+
+.roulade{
+    font-family:'Arial';
+    font-weight:bold;
+    font-size:large;
+    text-align: center;
+}
+
 
 
