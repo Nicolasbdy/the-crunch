@@ -39,7 +39,7 @@ setupIonicReact();
 
 const App: React.FC = () => (
   <IonApp>
-    <IonReactRouter>
+    <IonReactRouter basename='/the-crunch'>
       <IonTabs>
         <IonRouterOutlet>
           <Route exact path="/">
