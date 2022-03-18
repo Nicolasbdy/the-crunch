@@ -24,7 +24,7 @@ const fetchAwayScore = async () => {
 }
 
 export const GetData = async () => {
-    const { value } = await Storage.get({ key: 'id' });
+    const value = await localStorage.getItem('id');
     console.log(value)
     const resp = await fetchData()
     if (resp.ok) {
@@ -32,10 +32,8 @@ export const GetData = async () => {
         if (value == items[0].event_id) {
             return {}
         }
-        Storage.set({
-            key: 'id',
-            value: items[0].event_id,
-        });
+        await localStorage.setItem('id', items[0].event_id);
+        console.log(items[0].event_id)
         return items[0]
     }
     return null
