@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/the-crunch/static/css/main.da644cdb.css",
-    "main.js": "/the-crunch/static/js/main.8bd10a23.js",
+    "main.js": "/the-crunch/static/js/main.c8a77413.js",
     "static/js/3630.10f8d39f.chunk.js": "/the-crunch/static/js/3630.10f8d39f.chunk.js",
     "static/js/3107.873e8221.chunk.js": "/the-crunch/static/js/3107.873e8221.chunk.js",
     "static/js/7397.ea2cdb6a.chunk.js": "/the-crunch/static/js/7397.ea2cdb6a.chunk.js",
@@ -85,7 +85,7 @@
     "service-worker.js": "/the-crunch/service-worker.js",
     "index.html": "/the-crunch/index.html",
     "main.da644cdb.css.map": "/the-crunch/static/css/main.da644cdb.css.map",
-    "main.8bd10a23.js.map": "/the-crunch/static/js/main.8bd10a23.js.map",
+    "main.c8a77413.js.map": "/the-crunch/static/js/main.c8a77413.js.map",
     "3630.10f8d39f.chunk.js.map": "/the-crunch/static/js/3630.10f8d39f.chunk.js.map",
     "3107.873e8221.chunk.js.map": "/the-crunch/static/js/3107.873e8221.chunk.js.map",
     "7397.ea2cdb6a.chunk.js.map": "/the-crunch/static/js/7397.ea2cdb6a.chunk.js.map",
@@ -165,6 +165,6 @@
   },
   "entrypoints": [
     "static/css/main.da644cdb.css",
-    "static/js/main.8bd10a23.js"
+    "static/js/main.c8a77413.js"
   ]
 }
