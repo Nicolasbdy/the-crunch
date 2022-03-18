@@ -11,8 +11,8 @@ const Compositions: React.FC = () => {
       
       <IonContent fullscreen>
       <div className='container4'>
-        <IonButton color="light texte"href=''>Retour</IonButton>
-        <IonButton color="light texte"href='Live'>Match</IonButton>
+        <IonButton color="light texte" routerLink='/'>Retour</IonButton>
+        <IonButton color="light texte" routerLink='/Live'>Match</IonButton>
       </div>
       <IonImg className="" src={compofrance} />
       <div className= 'roulade'>

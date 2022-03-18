@@ -9,8 +9,8 @@ const Accueil: React.FC = () => {
       <IonContent fullscreen>
         <div className='background-image container'>
           <div className='container-bouton'>
-            <IonButton color="light text bouton" href='Compositions'>Équipes</IonButton>
-            <IonButton color="light text bouton" href='Live'>Match</IonButton>
+            <IonButton color="light text bouton" routerLink='/Compositions'>Équipes</IonButton>
+            <IonButton color="light text bouton" routerLink='/Live'>Match</IonButton>
           </div>
           <span className="Red title">🇫🇷 The Crunch 🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
         </div>

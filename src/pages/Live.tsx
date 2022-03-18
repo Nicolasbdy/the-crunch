@@ -101,8 +101,8 @@ const Live: React.FC = () => {
             <IonHeader>
                 <IonTitle>Live</IonTitle>
                 <div className='container5'>
-                    <IonButton color="light texte" href=''>Retour</IonButton>
-                    <IonButton color="light texte" href='/Compositions'>Équipes</IonButton>
+                    <IonButton color="light texte" routerLink='/'>Retour</IonButton>
+                    <IonButton color="light texte" routerLink='/Compositions'>Équipes</IonButton>
                 </div>
             </IonHeader>
             <IonContent fullscreen>

@@ -29,7 +29,7 @@ const DeuxPoints = (props: any) => {
                     <span className="text5"> {player} {text}</span>
                     <IonImg className='gif1' src={url}></IonImg>
                     <span className='text6'>{text2}</span>
-                    <IonButton color="light texte textemarge" href='Live'>J'ai bu.</IonButton>
+                    <IonButton color="light texte textemarge" routerLink='/Live'>J'ai bu.</IonButton>
                 </div>
             </IonContent>
         </IonPage>
