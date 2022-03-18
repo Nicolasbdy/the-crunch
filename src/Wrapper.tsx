@@ -29,11 +29,11 @@ export const GetData = async () => {
     const resp = await fetchData()
     if (resp.ok) {
         const items = await resp.json()
-        if (value == items[0].event_id) {
+        if (value == items[0].time) {
             return {}
         }
-        await localStorage.setItem('id', items[0].event_id);
-        console.log(items[0].event_id)
+        await localStorage.setItem('id', items[0].time);
+        console.log(items[0].time)
         return items[0]
     }
     return null
